@@ -1,5 +1,5 @@
 //your JS code here. If requile
-let student = { name:"",age:24 , job:"as"}
+let student = { name:""}
 
 Object.prototype.getKeys = function() {
   return Object.keys(this);
