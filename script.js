@@ -1,10 +1,7 @@
 //your JS code here. If requile
-let student = { name:""}
+let student = { name:"",age:24 , job:"as"}
 
-Object.prototype.getKeys = function{
-	let this.arr = []
-	for(let key in this.Object){
-		this.arr.push(key);
-	}
-	return this.arr;
-}
+Object.prototype.getKeys = function() {
+  return Object.keys(this);
+};
+console.log(student.getKeys());
